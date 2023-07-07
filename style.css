@@ -47,6 +47,10 @@ a {
     flex: 0 0 50%;
     max-width: 50%;
 }
+.col-sm-8 {
+    flex: 0 0 66.66666%;
+    max-width: 66.66666%;
+}
 
 
 
@@ -65,12 +69,6 @@ a {
     .col-xs-6 {
         flex: 0 0 50%;
         max-width: 50%;
-    }
-    .menu {
-        overflow-x: scroll;
-    }
-    .menu li {
-        margin: 5px 10px;
     }
     
 }
@@ -176,7 +174,7 @@ a {
     background-color: rgb(188, 187, 187);
 }
 
-/* section carsphoto */
+/* section carsPhoto */
 
 .carsPhoto {
     background-color: rgb(236, 236, 236);
@@ -205,3 +203,231 @@ a {
     font-size: 30px;
     font-weight: 100;
 }
+.center {
+    justify-content: center;
+}
+.seeMore a {
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* section calc */
+
+.imageCalc {
+    margin: 70px ;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.column .p1 {
+    color: rgb(78, 187, 78);
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.column h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.column p {
+    background-color: rgb(78, 187, 78);
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.column .p2 {
+    margin-top: 40px; 
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.column a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+}
+
+/* section welcomeTo */
+
+.welcomeTo {
+    background-color: black;
+    padding-bottom: 80px;
+}
+.mostPopular p {
+    color: white;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.mostPopular h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+.twoCars {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.twoCars {
+    position: relative;
+}
+.twoCars a {
+    position: absolute;
+    left: 30px;
+    top: 80%;
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.twoCars a:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(179, 0, 179);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s; 
+}
+.twoCars a:hover:after {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+/* section JoinUs */
+.JoinUs {
+    background-color: white;
+    border-bottom: 2px solid rgb(186, 186, 186);
+}
+.title {
+    margin-top: 70px;
+    color: black;
+    font-size: 60px;
+}
+.padding {
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+.text {
+    padding-top: 70px;
+}
+.text h4 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.text a {
+    display: block;
+    margin-top: 40px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+/* section 123 */
+
+.numbers {
+    padding: 40px;
+}
+.numb {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 100px;
+    margin-bottom: 15px;
+    color: rgb(179, 0, 179);
+}
+.numbers h5 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+/* section last */
+.last {
+    background-color: rgb(223, 223, 223);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgb(179, 179, 179);
+}
+
+.logo2 div {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.send h6 {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.email input {
+    width: 230px;
+    height: 40px;
+    border: none;
+    margin-bottom: 30px;
+}
+.email input::placeholder {
+    padding-left: 25px;
+    font-size: 18px;
+}
+.email input:focus {
+    outline: none;
+    padding-left: 10px;
+}
+.email button {
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.email button:hover {
+    background-color: rgb(46, 46, 46);
+}
+.cellphone {
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image: url(images/telephone.png);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+}
+.myEmail {
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image: url(images/email.png);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color:  rgb(223, 223, 223);;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.iconsTwitter a {
+    margin: 13px;
+}
+
+
+
+
