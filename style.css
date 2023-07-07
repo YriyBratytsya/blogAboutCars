@@ -66,8 +66,15 @@ a {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .menu {
+        overflow-x: scroll;
+    }
+    .menu li {
+        margin: 5px 10px;
+    }
     
 }
+
 /* header */
 .header {
     position: sticky;
@@ -179,6 +186,10 @@ a {
 }
 .images {
     background-color:white;
+}
+.images img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .nameCar {
     height: 180px;
